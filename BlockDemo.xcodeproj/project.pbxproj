@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0BD50EFB201EFFE700C44237 /* CircularreferenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BD50EFA201EFFE700C44237 /* CircularreferenceViewController.m */; };
 		0BF2C5C4201B0F7D00152576 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BF2C5C3201B0F7D00152576 /* AppDelegate.m */; };
 		0BF2C5CA201B0F7D00152576 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BF2C5C8201B0F7D00152576 /* Main.storyboard */; };
 		0BF2C5CC201B0F7D00152576 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BF2C5CB201B0F7D00152576 /* Assets.xcassets */; };
@@ -20,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0BD50EF9201EFFE700C44237 /* CircularreferenceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CircularreferenceViewController.h; sourceTree = "<group>"; };
+		0BD50EFA201EFFE700C44237 /* CircularreferenceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CircularreferenceViewController.m; sourceTree = "<group>"; };
 		0BF2C5BF201B0F7D00152576 /* BlockDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlockDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BF2C5C2201B0F7D00152576 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0BF2C5C3201B0F7D00152576 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -82,6 +85,8 @@
 				0BF2C5E2201B257400152576 /* BlockVlaueCaptureViewController.m */,
 				0BF2C5E4201B300A00152576 /* ValueCapture.h */,
 				0BF2C5E5201B300A00152576 /* ValueCapture.m */,
+				0BD50EF9201EFFE700C44237 /* CircularreferenceViewController.h */,
+				0BD50EFA201EFFE700C44237 /* CircularreferenceViewController.m */,
 				0BF2C5C8201B0F7D00152576 /* Main.storyboard */,
 				0BF2C5CB201B0F7D00152576 /* Assets.xcassets */,
 				0BF2C5CD201B0F7D00152576 /* LaunchScreen.storyboard */,
@@ -167,6 +172,7 @@
 				0BF2C5E3201B257400152576 /* BlockVlaueCaptureViewController.m in Sources */,
 				0BF2C5E0201B221C00152576 /* BaseViewController.m in Sources */,
 				0BF2C5DD201B13C400152576 /* BlockBaseViewController.m in Sources */,
+				0BD50EFB201EFFE700C44237 /* CircularreferenceViewController.m in Sources */,
 				0BF2C5C4201B0F7D00152576 /* AppDelegate.m in Sources */,
 				0BF2C5DA201B101C00152576 /* BlockTableViewController.m in Sources */,
 			);

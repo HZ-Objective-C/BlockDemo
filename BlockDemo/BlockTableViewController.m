@@ -9,6 +9,7 @@
 #import "BlockTableViewController.h"
 #import "BlockBaseViewController.h"
 #import "BlockVlaueCaptureViewController.h"
+#import "CircularreferenceViewController.h"
 
 @interface BlockTableViewController ()<UITableViewDelegate, UITableViewDataSource>
 
@@ -23,11 +24,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    _titles = @[@"block一些基本用法", @"block值捕获问题"];
+    _titles = @[@"block一些基本用法",
+                @"block值捕获问题",
+                @"block循环引用相关"];
     
-    _classDict = @{@"block一些基本用法" : [BlockBaseViewController class],
-                   @"block值捕获问题": [BlockVlaueCaptureViewController class]
-                   };
+    _classDict = @{@"block一些基本用法"     : [BlockBaseViewController class],
+                   @"block值捕获问题"       : [BlockVlaueCaptureViewController class],
+                   @"block循环引用相关"     : [CircularreferenceViewController class]};
     
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"UITableViewCell"];
     [self.view addSubview:self.tableView];
